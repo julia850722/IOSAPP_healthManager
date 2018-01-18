@@ -12,6 +12,16 @@
 		4C0B752B200679EF006E82DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B7529200679EF006E82DA /* Main.storyboard */; };
 		4C0B752D200679EF006E82DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B752C200679EF006E82DA /* Assets.xcassets */; };
 		4C0B7530200679EF006E82DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C0B752E200679EF006E82DA /* LaunchScreen.storyboard */; };
+		4C0B754420077A28006E82DA /* WeightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B754320077A28006E82DA /* WeightTableViewController.swift */; };
+		4C0B754620077A4A006E82DA /* WeightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B754520077A4A006E82DA /* WeightTableViewCell.swift */; };
+		4C0B754820077A6F006E82DA /* AddWeightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B754720077A6F006E82DA /* AddWeightTableViewController.swift */; };
+		4C0B754A20077A87006E82DA /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B754920077A87006E82DA /* Info.swift */; };
+		4C2CAD7D2007B65C00858FA3 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CAD7C2007B65C00858FA3 /* InfoViewController.swift */; };
+		4C2CAD7F2007E41C00858FA3 /* AddFoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CAD7E2007E41C00858FA3 /* AddFoodTableViewController.swift */; };
+		4C2CAD812007E4CA00858FA3 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CAD802007E4CA00858FA3 /* Food.swift */; };
+		4C2CAD832007E51900858FA3 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CAD822007E51900858FA3 /* FoodTableViewCell.swift */; };
+		4C2CAD852007E55D00858FA3 /* FoodTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CAD842007E55D00858FA3 /* FoodTableViewController.swift */; };
+		4C2CAD872007E93800858FA3 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2CAD862007E93800858FA3 /* FoodViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,16 @@
 		4C0B752C200679EF006E82DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C0B752F200679EF006E82DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C0B7531200679EF006E82DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C0B754320077A28006E82DA /* WeightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTableViewController.swift; sourceTree = "<group>"; };
+		4C0B754520077A4A006E82DA /* WeightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightTableViewCell.swift; sourceTree = "<group>"; };
+		4C0B754720077A6F006E82DA /* AddWeightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddWeightTableViewController.swift; sourceTree = "<group>"; };
+		4C0B754920077A87006E82DA /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		4C2CAD7C2007B65C00858FA3 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		4C2CAD7E2007E41C00858FA3 /* AddFoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodTableViewController.swift; sourceTree = "<group>"; };
+		4C2CAD802007E4CA00858FA3 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		4C2CAD822007E51900858FA3 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		4C2CAD842007E55D00858FA3 /* FoodTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewController.swift; sourceTree = "<group>"; };
+		4C2CAD862007E93800858FA3 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +74,22 @@
 		4C0B7524200679EF006E82DA /* 00357125_final */ = {
 			isa = PBXGroup;
 			children = (
+				4C2CAD7E2007E41C00858FA3 /* AddFoodTableViewController.swift */,
+				4C0B754720077A6F006E82DA /* AddWeightTableViewController.swift */,
 				4C0B7525200679EF006E82DA /* AppDelegate.swift */,
-				4C0B7527200679EF006E82DA /* ViewController.swift */,
-				4C0B7529200679EF006E82DA /* Main.storyboard */,
 				4C0B752C200679EF006E82DA /* Assets.xcassets */,
-				4C0B752E200679EF006E82DA /* LaunchScreen.storyboard */,
+				4C2CAD802007E4CA00858FA3 /* Food.swift */,
+				4C2CAD822007E51900858FA3 /* FoodTableViewCell.swift */,
+				4C2CAD842007E55D00858FA3 /* FoodTableViewController.swift */,
+				4C2CAD862007E93800858FA3 /* FoodViewController.swift */,
 				4C0B7531200679EF006E82DA /* Info.plist */,
+				4C0B754920077A87006E82DA /* Info.swift */,
+				4C2CAD7C2007B65C00858FA3 /* InfoViewController.swift */,
+				4C0B752E200679EF006E82DA /* LaunchScreen.storyboard */,
+				4C0B7529200679EF006E82DA /* Main.storyboard */,
+				4C0B7527200679EF006E82DA /* ViewController.swift */,
+				4C0B754520077A4A006E82DA /* WeightTableViewCell.swift */,
+				4C0B754320077A28006E82DA /* WeightTableViewController.swift */,
 			);
 			path = 00357125_final;
 			sourceTree = "<group>";
@@ -136,8 +166,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C2CAD852007E55D00858FA3 /* FoodTableViewController.swift in Sources */,
 				4C0B7528200679EF006E82DA /* ViewController.swift in Sources */,
 				4C0B7526200679EF006E82DA /* AppDelegate.swift in Sources */,
+				4C0B754420077A28006E82DA /* WeightTableViewController.swift in Sources */,
+				4C2CAD7D2007B65C00858FA3 /* InfoViewController.swift in Sources */,
+				4C0B754620077A4A006E82DA /* WeightTableViewCell.swift in Sources */,
+				4C2CAD812007E4CA00858FA3 /* Food.swift in Sources */,
+				4C0B754820077A6F006E82DA /* AddWeightTableViewController.swift in Sources */,
+				4C2CAD832007E51900858FA3 /* FoodTableViewCell.swift in Sources */,
+				4C2CAD7F2007E41C00858FA3 /* AddFoodTableViewController.swift in Sources */,
+				4C2CAD872007E93800858FA3 /* FoodViewController.swift in Sources */,
+				4C0B754A20077A87006E82DA /* Info.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
